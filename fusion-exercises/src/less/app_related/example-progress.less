@@ -1,0 +1,24 @@
+.lnf-ExampleProgress {
+    .flex-display(flex);
+}
+
+.lnf-ExampleProgress-item {
+    .flex-display();
+    .align-items(center);
+    padding: 1rem;
+    background: @green60;
+    color: @white;
+    cursor: pointer;
+
+    &:hover {
+        background: darken(@green60, 5);
+    }
+
+    &.is-active {
+        background: darken(@green60, 10);
+    }
+
+    .mpageui-SvgIcon {
+        margin-left: 1em;
+    }
+}

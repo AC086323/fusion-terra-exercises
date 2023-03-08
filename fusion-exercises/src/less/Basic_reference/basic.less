@@ -1,0 +1,52 @@
+.Basic-reference-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+.Basic-reference-1__GreenColor {
+    background-color: @green60;
+}
+
+.Basic-reference-1__RedColor {
+    background-color: @red50;
+}
+
+.Basic-reference-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+    .width50 {
+        width: 50%;
+    }
+    &--Red{
+        background-color: @red20;
+    }
+    &--Green{
+        background-color: @green50;
+    }
+    &--Blue{
+        background-color: @blue50;
+    }
+    &--Orange{
+        background-color: @orange50;
+    }
+    &--White{
+        background-color: @white;
+    }
+
+}
+
+
+// Demo Class
+
+.DoNotDisplay {
+    display: none;
+}
+
+.Demo-Wrapper {
+    text-align: center;
+}
+
+.demo-button__wrapper {
+    padding: 2em;
+}

@@ -1,0 +1,27 @@
+.basic1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+.basic1_green {
+    background-color: @green70;
+}
+
+.basic1_red {
+    background-color: @red70;
+}
+
+.basic2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+    .width50{
+        width: 50%;
+    }
+    &_red{
+        background-color: @red50;
+    }
+    &_blue{
+        background-color: @blue80;
+    }
+}
